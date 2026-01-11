@@ -139,6 +139,39 @@ footer{
 <!-- =====================================================
      ===== ORIGINAL CONTENT START (UNCHANGED) =====
      ===================================================== -->
+<!-- Glowing Button with link -->
+<a href="https://phantom1729.github.io/Zero-to-Alpha-/" target="_blank" id="brahmastraBtn">💥 BRAHMASTRA</a>
+
+<style>
+#brahmastraBtn{
+    position: fixed; /* bottom-right corner */
+    bottom: 30px;
+    right: 30px;
+    padding: 18px 28px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(45deg, #ff004c, #ff9900, #00ff99, #00d4ff);
+    background-size: 400% 400%;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff004c, 0 0 20px #ff9900, 0 0 30px #00ff99, 0 0 40px #00d4ff;
+    animation: glowing 3s ease infinite;
+    z-index: 9999;
+    display: inline-block;
+}
+#brahmastraBtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff004c, 0 0 40px #ff9900, 0 0 60px #00ff99, 0 0 80px #00d4ff;
+}
+
+@keyframes glowing{
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+</style>
 
 <div class="card">
     <span class="badge">MYTH</span>
